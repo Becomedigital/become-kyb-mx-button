@@ -47,9 +47,9 @@ You can also subscribe to the events that the button emits to let you know about
 | become:verificationStarted | Validation process started                      |
 | become:userFinishedSdk     | Successful completion of the validation process, return latest step data |
 | become:exitedSdk           | User exited the process manually                |
-| become:kycInformation | Information after completing the KYC flow |
+| become:kycInfo| Information after completing the KYC flow |
 | become:satInfo | Sat Information returned after uploading the CRSF |
-| become:watchListInfo | Information to check if company is in any watchlist |
+| become:watchListInfo | Flag to check if company is in any watchlist |
 | become:rfcCheckInfo | Return the information of the company based in the RFC |
 | become:accountStatusInfo | Return the information of the bank account status uploaded, it is also available in userFinishedSdk as it is the latest step |
 
