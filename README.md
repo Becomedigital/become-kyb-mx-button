@@ -53,7 +53,7 @@ The `become:verificationStarted` and `become:exitedSdk` events return an object 
     result: null
 }
 ```
-The `become:uuid` event return an object contain the UUID generated in the flow, it can be useful to check why a customer closed the flow, or to determine if they are facing any issue.
+The `become:uuid` event return an object containing the UUID generated in the flow, it can be useful to check why a customer closed the flow, or to determine if they are facing any issue.
 ```js
 { 
     uuid: uuid
