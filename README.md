@@ -46,13 +46,17 @@ You can also subscribe to the events that the button emits to let you know about
 
 #### Events Details
 
-The `become:verificationStarted` and `become:exitedSdk` events return an object with a result key set to null, these can be used to audit the user actions, when he/she initiated the proccess and if he/she canceled it so you can proceed accordangly.
+The `become:verificationStarted` and `become:exitedSdk` events return an object with a result and a message key, these can be used to audit the user actions, when he/she initiated the proccess and if he/she canceled it so you can proceed accordangly.
 
 ```js
 {
-    result: null
+    result: { message: "STRING" }
 }
+// 1. "Flow started"
+// 2. "Manually exited by user"
 ```
+**Note**: the exitedSdk event closes the modal.
+
 The `become:uuid` event return an object containing the UUID generated in the flow, it can be useful to check why a customer closed the flow, or to determine if they are facing any issue.
 ```js
 { 
