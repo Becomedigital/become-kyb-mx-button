@@ -59,7 +59,7 @@ The `become:uuid` event return an object containing the UUID generated in the fl
     uuid: uuid
 }
 ```
-The become:userFinishedSdk returns an object with the uuid generated for that transactions and and object containing the information required.
+The become:userFinishedSdk returns an object with the uuid generated for that transaction and and object containing the information required.
 
 ```js
 { 
