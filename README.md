@@ -11,7 +11,7 @@ How it looks like on your page:
 <img src="https://gist.githubusercontent.com/Tyg0th/15c5131ef7d2b24b9effa97eb45dedce/raw/07a5e1f3e428bd1d32bfe2940591872e1ae1ec2d/become-button-example.jpg" width="211" />
 
 
-### Integrate
+### Integration
 
 Add this script to your `<script>` tag 
 
@@ -24,8 +24,13 @@ Declare the userId for this identity, the contractId and the token in the custom
 ```
 <become-button token="<YOUR_JWT_TOKEN>" />
 ```
+## Service API Documentation
 
-### API Documentation
+The API documentation for this service can be found in our [Postman documenter page](https://documenter.getpostman.com/view/22917023/2sAYBSisMj)
+- https://documenter.getpostman.com/view/22917023/2sAYBSisMj
+
+
+### Button API Documentation
 
 #### Button attributes
 
